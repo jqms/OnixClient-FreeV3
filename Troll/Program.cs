@@ -99,7 +99,7 @@ namespace FreeOnixV3
 
             static void mainCrack(string logo)
             {
-                for (int i = 0; i < 1; i++)
+                for (int i = 0; i < 20; i++)
                 {
 
                     Console.WriteLine(logo, Color.Blue);
@@ -127,7 +127,7 @@ namespace FreeOnixV3
                     Console.Clear();
                     Console.WriteLine(logo, Color.Blue);
                 }
-                for (int i = 0; i < 1; i++)
+                for (int i = 0; i < 20; i++)
                 {
                     Console.Write("Installing Onix Client.");
                     Thread.Sleep(500);
